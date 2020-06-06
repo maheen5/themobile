@@ -1,0 +1,69 @@
+
+*{margin: 0;padding: 0;border: 0;outline: 0;list-style-type: none;text-decoration: none;font-family: century gothic;font-weight: bold;}
+.wrapper{width: 100%; max-width:990px;height: auto;margin: auto;}
+.topback{width: 100%;height: 25px;background-color:#282828;}
+.topleft{width: 290px;height: 25px;float: left;}
+.topleft ul{line-height: 25px;margin: 0 0 0 17px;}
+.topleft ul li{float: left;font-size: 12px;color: #dddddd;padding: 0 10px;}
+.topleft ul li:nth-child(2) a{border-right: 1px solid #dddddd;padding: 0 10px 0 0;}
+.topleft ul li a.signintopleft{border-right: 0;}
+.topleft ul li a{color: #dddddd;}
+.topleft ul li a:hover{color: #ff7901;}
+.header{width: 100%;height: 70px;background: url(topdown.png) repeat-x left top;}
+.header a img{float:left;margin: 10px 0 0 20px;}
+.header-right{width: 350px; height: 35px; float: right;background: #fff;margin: 20px 20px 0 0;border-radius: 20px;}
+.header-right input{width: 300px; height: 35px;float: left;border-radius: 20px;text-indent: 20px;background: none;}
+.header-right:hover{box-shadow: -1px 1px 1px 1px grey;}
+.size{ font-size: 38px; margin: 0 5px 0 0;cursor:pointer;}
+.size:hover{ color:red;}
+.size:active{ color:#ff7901;}
+.nav{width: 100%;height: 32px;background:url(bestgr.png) repeat-x left; text-align: center; margin: 0px 0;}
+.nav ul{line-height: 32px;}
+.nav ul li{display: inline-block;}
+.topright ul li:nth-child(2) a{border: 0;}
+.nav ul li a{font-size: 16px;color: #000;padding: 5px 5px;margin:0 15px 10px 15px;}
+.nav ul li a:hover{border-bottom: 5px solid #ff7901;color: #ff7901;}
+.contentparent{width:100%;height:auto;display: inline-block; margin: 10px 0;}
+.content{width: 230px;height: 500px;background:none;float: left;}
+.maincontent{width: 500px;height: 500px;float: left; margin: 0 15px;}
+.inner{width: 500px;height: 150px;display: inline-block; margin: 8px 0;text-align: center;}
+.inner ul li a{width: 150px; height: 150px; float: left;margin: 0 8px;color: grey;}
+.inner ul li a h6{color: red;}
+.cat{width: 230px;height: auto;float: left;border: 1px solid #bbbbbb;}
+.cat h1{width: 230px;height: 41px;text-indent:15px;background-color:#282828; font-size: 28px;font-weight: bold;color: #fff;line-height: 41px;}
+.cat ul li{display: inherit;font-size: 16px;text-indent:15px;border-bottom: 1px solid #bbbbbb;font-weight: bold;color: #323334;line-height: 41px;}
+.address{width: 200px;height: 100px;display: inline-block; margin: 0px 40px; text-align: left;}
+.address h2{font-size: 22px; color:#fff;margin: 5px 0;float: left;padding: 0;}
+.address ul li{float: left; font-size: 12px; color:#fff;margin: 5px 0; cursor: pointer; font-weight: normal;}
+.address ul li:hover{color: #ff7901;}
+.ftr{width: 100%;height: 100px;background-color:#282828;text-align: center;padding: 5px 0 0 0; margin: 10px 0;}
+.lst{width:100%;height:25px; text-align: center;}
+.lst h4{font-size: 16px; color:#000; font-weight: bold;}
+.signin{width:300px;height: 500px;margin: auto;text-align: center;}
+.signin h2{width: 300px; height: 35px;font-size: 36px;display: inline-block; color: #ff7901;margin: 100px 0 0 0;}
+.signin input{width: 300px; height: 40px;margin: 15px 0; text-indent: 20px;border-radius: 20px;cursor: pointer;}
+.signin input.submit{ width: 100px; float: left;color: #534d4d;text-indent: 0px; height: 35px; }
+.signin input.submit:hover{color:#323334; background:#ff7901; }
+.signin input:hover{box-shadow: -2px 1px 20px 1px #676565;}
+.signin h3{width: 300px; height: 35px;font-size: 10px; color: #ff7901;margin: 20px 0 0 -35px;float: left;}
+.signin h3 a{font-size: 14px;padding:5px; color: #282828;background: #ff7901;margin: 20px 0 0 10px;border-radius: 5px}
+.signin h3 a:hover{box-shadow: -2px 1px 20px 1px #676565;}
+.signin h4 a{font-size: 12px; color: #ff7901;float: right;margin: 0 0 -5px 0;text-decoration: underline;}
+.joinus{width:300px;height: 600px;margin: auto;text-align: center;}
+.joinus h2{width: 300px; height: 35px;font-size: 36px;display: inline-block; color: #ff7901;margin: 50px 0 0 0;}
+.joinus input{width: 300px; height: 40px;margin: 15px 0; text-indent: 20px;border-radius: 20px;cursor: pointer;}
+.joinus input.submit{ width: 100px; position:absolute;left:620px;top:670px;color: #534d4d;text-indent: 0px; height: 35px; }
+.joinus input.submit:hover{color:#323334; background:#ff7901; }
+.joinus input:hover{box-shadow: -2px 1px 20px 1px #676565;}
+.joinus input.gender{width: 20px; height: 20px;float: left;font-size: 16px;box-shadow: none;}
+.joinus label{ font-size: 14px;float: left; color: #ff7901;margin: 14px 10px;}
+.joinus textarea{width: 300px; height: 40px;margin: 15px 0; text-indent: 20px;border-radius: 20px;cursor: pointer;color:#808080;}
+.joinus textarea:hover{box-shadow: -2px 1px 20px 1px #676565;}
+.g{width:300px;height: 40px;text-align: center;float: left;}
+.aboutus{width: 100%; height: auto; text-align: center;}
+.aboutus h2{font-size: 36px; color:#ff7901; margin: 10px 0; }
+.aboutus p{font-size: 15px; color:#fff; line-height: 26px; font-weight:normal;margin: 10px 0;letter-spacing: 1px;text-align: justify;}
+.contactus{width: 100%; height: 400px; text-align: center;}
+.contactus h2{font-size: 36px; color:#ff7901; margin: 40px 0; }
+.contactus ul li{letter-spacing: 1px;font-size: 15px; color:#fff; line-height: 26px; font-weight:normal;margin: 30px 0;letter-spacing: 1px;}
+.contactus ul li span{font-weight: bold; color: #ff7901;}
